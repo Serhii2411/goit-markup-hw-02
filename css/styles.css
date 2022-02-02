@@ -1,0 +1,38 @@
+:root{
+    --primery-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3; 
+    --primery-bg-color:#E5E5E5;
+}
+
+body {
+    background-color: #E5E5E5;
+    color: var(--primery-text-color);   
+}
+.logo{
+    color:var(--accent-color);
+}
+.list{
+    list-style: none;
+}
+.site-nav a {
+    color:var(--title-text-color)
+}
+.site-nav a:hover,
+.site-nav a:focus{
+    color:var(--accent-color);
+}
+.auth-nav a{
+    color: var(--primery-text-color);
+}
+.auth-nav a:hover,
+.auth-nav a:focus{
+    color:var(--accent-color);
+}
+
+/*#212121 текст основного кол */
+/*#757575; текст вторичний кол*/
+/* #E5E5E5 основний фон */
+/* #F5F4FA вторичний фон */
+/* білий #FFFFFF */
+/*#2196F3 акцент*/
